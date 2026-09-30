@@ -1,141 +1,58 @@
-# Formcraft
+# FormCraft — Form & Survey Builder
 
-A modern visual form builder for creating, previewing, publishing, and managing forms without writing form code.
+A professional browser-based form and survey builder designed to make creating, customizing, and managing digital forms simple and intuitive.
 
-Formcraft focuses on a clean editing experience where form structure, field settings, respondent experience, and submitted responses are handled in one application.
+🌐 **Live Demo:** [Open FormCraft](https://nihxl-09.github.io/formcraft/)
+
+---
+
+## Overview
+
+**FormCraft** is a web application for creating structured forms and surveys through a visual, user-friendly interface.
+
+Instead of building every form from scratch, users can assemble forms using different field types, customize their content, and preview the final experience before using it.
+
+---
 
 ## Features
 
-* Visual form builder
-* Drag-and-drop field ordering
-* Multiple field types
+* Create custom forms and surveys
+* Add multiple field types
+* Customize questions and field content
+* Reorder form elements
+* Configure required fields
+* Preview forms before publishing
+* Manage form content through an interactive interface
+* Responsive design
+* Clean and accessible user experience
 
-  * Short text
-  * Email
-  * Number
-  * Dropdown
-  * Checkboxes
-  * Multiple choice
-  * Rating
-  * Date
-* Required field validation
-* Custom field descriptions
-* Editable dropdown, checkbox, and multiple-choice options
-* Duplicate and delete fields
-* Live form preview
-* Respondent-facing published form
-* Form submission handling
-* Response dashboard
-* Individual response viewer
-* Response deletion
-* Local data persistence
-* Responsive interface
+---
 
-## Tech Stack
+## Form Building Experience
 
-* React
-* TypeScript
-* Vite
-* CSS
-* Browser Local Storage
+FormCraft is designed around a simple workflow:
 
-## Architecture
+**Create → Customize → Preview → Use**
 
-Formcraft currently uses a local-first architecture.
+The interface focuses on keeping form creation straightforward while providing enough flexibility for different types of forms and surveys.
 
-```text
-Form Builder
-     │
-     ▼
-Form Configuration
-     │
-     ├── Local Storage
-     │
-     ▼
-Published Form
-     │
-     ▼
-Form Submission
-     │
-     ▼
-Response Storage
-     │
-     ▼
-Responses Dashboard
-```
+---
 
-This makes the application easy to run locally without requiring a backend or database.
+## Technology
 
-## Getting Started
+* **React**
+* **JavaScript**
+* **HTML**
+* **CSS**
+* **Vite**
 
-### Requirements
+The application uses a modern frontend development workflow to provide a responsive and interactive experience.
 
-* Node.js
-* npm
+---
 
-### Installation
+## What This Project Demonstrates
 
-Clone the repository:
+FormCraft was built to explore practical software and frontend development concepts, including:
 
-```bash
-git clone https://github.com/YOUR_USERNAME/formcraft.git
-```
-
-Move into the project:
-
-```bash
-cd formcraft
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Open the local URL provided by Vite.
-
-## Project Structure
-
-```text
-formcraft/
-├── src/
-│   ├── App.tsx
-│   ├── App.css
-│   ├── index.css
-│   └── main.tsx
-├── public/
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-```
-
-## Data Storage
-
-Formcraft currently stores form configuration and submitted responses using browser Local Storage.
-
-This allows forms and responses to remain available after refreshing the application while keeping the project simple and easy to run.
-
-## Future Improvements
-
-Possible future versions could include:
-
-* Backend database storage
-* Authentication
-* Shareable public form URLs
-* Analytics and response charts
-* CSV export
-* Form templates
-* Team collaboration
-* Advanced validation rules
-
-## License
-
-This project is currently available for portfolio and educational purposes.
+* Component-based interface development
+* Interactive form con
