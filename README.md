@@ -55,4 +55,54 @@ The application uses a modern frontend development workflow to provide a respons
 FormCraft was built to explore practical software and frontend development concepts, including:
 
 * Component-based interface development
-* Interactive form con
+* Interactive form construction
+* Dynamic user interfaces
+* State-driven application behavior
+* Responsive design
+* User experience design
+* Client-side application development
+
+---
+
+## Live Application
+
+**[Launch FormCraft →](https://nihxl-09.github.io/formcraft/)**
+
+---
+
+## Project Status
+
+**Completed**
+
+The current release provides the core form-building experience and is available as a live web application.
+
+---
+
+## Future Possibilities
+
+Potential future improvements could include:
+
+* Form response management
+* Shareable form links
+* Export options
+* Additional field types
+* Form templates
+* Advanced validation
+* Analytics and response insights
+* Cloud-based storage
+
+---
+
+## Developer
+
+**Muhammad Nihal**
+
+Computer Science Student & Developer
+
+**GitHub:** [Nihxl-09](https://github.com/Nihxl-09)
+
+**Portfolio:** [nihxl-09.github.io/nihal-portfolio](https://nihxl-09.github.io/nihal-portfolio/)
+
+---
+
+© Muhammad Nihal
